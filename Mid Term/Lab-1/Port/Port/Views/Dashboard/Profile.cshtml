@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Profile";
+}
+
+
+<a href="/Dashboard/Home"> Home</a>
+<a href="/Dashboard/Profile"> Profile</a>
+<a href="/Dashboard/Education"> Education</a>
+<a href="/Dashboard/Project"> Project</a>
+<a href="/Dashboard/Reference"> Reference</a>
+
+<h2>Profile</h2>
+<br />
+
+<h4>Name : @Model.Name</h4>
+<h4>Date of Birth: @Model.Dob</h4>
+<h4>Blood Group  : @Model.BloodGroup</h4>
+<h4>Address  : @Model.Address</h4>
+<h4>Contact  : @Model.Contact</h4>
+
+
+
+<h4>Hobbies:</h4>
+
+<ul>
+    @for (int i = 0; i < ViewBag.Hobbies.Length; i++)
+    {
+        <li>@ViewBag.Hobbies[i]</li>
+
+    }
+</ul>

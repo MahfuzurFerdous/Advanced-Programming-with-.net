@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{8DC5AE26-2E54-4F90-82DA-55686E95C9AB}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Port/Views/Dashboard/Education.cshtml">
+    <Files>
+      <File FileName="Port/Controllers/DashboardController.cs" Line="102" Column="27" />
+      <File FileName="Port/Views/Dashboard/Main.cshtml" Line="1" Column="1" />
+      <File FileName="Port/Program.cs" />
+      <File FileName="Port/Views/Dashboard/Home.cshtml" Line="13" Column="1" />
+      <File FileName="Port/Views/Dashboard/Profile.cshtml" Line="13" Column="7" />
+      <File FileName="Port/Views/Dashboard/Education.cshtml" Line="24" Column="6" />
+      <File FileName="Port/Views/Dashboard/Reference.cshtml" Line="15" Column="16" />
+      <File FileName="Port/Views/Dashboard/Project.cshtml" Line="16" Column="9" />
+      <File FileName="Port/Models/PortModel.cs" Line="14" Column="1" />
+      <File FileName="Port/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Port/Models/EduModel.cs" Line="12" Column="23" />
+      <File FileName="Port/Models/ProjectModel.cs" Line="8" Column="30" />
+      <File FileName="Port/Models/RefModel.cs" Line="8" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Port" expanded="True">
+            <Node name="Port" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Dashboard" expanded="True">
+                  <Node name="Education.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Port PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

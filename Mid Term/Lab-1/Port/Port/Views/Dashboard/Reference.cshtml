@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Reference";
+}
+
+
+
+<a href="/Dashboard/Home"> Home</a>
+<a href="/Dashboard/Profile"> Profile</a>
+<a href="/Dashboard/Education"> Education</a>
+<a href="/Dashboard/Project"> Project</a>
+<a href="/Dashboard/Reference"> Reference</a>
+
+
+<h1>Reference :</h1>
+
+<ul>
+    @foreach (var item in ViewBag.Ref)
+    {
+        <li>
+            @item.Name
+            <ul>
+                <li>@item.Qualifications</li>
+                <li>@item.AreasOfExpertise</li>
+            </ul>
+        </li>
+    }
+</ul>
+}
